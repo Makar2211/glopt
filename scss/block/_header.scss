@@ -1,0 +1,142 @@
+.header{
+    background: url("../../img/bg_airplane.jpg") center (center/cover) no-repeat;
+    min-height: 680px; 
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        display: block;
+        margin-top: 23px;
+    }
+    &__navigation{
+        ul{
+            display: flex;
+            margin-top: 48px;
+            li{
+                padding: 10px;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        text-decoration: underline;
+                        color:  #ec644b;
+                    }
+                }
+            }
+        }
+    }
+
+    &__contacts{
+        margin-top: 48px;
+        span{
+            display: block;
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: right;
+        }
+        
+        a{
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 24px;
+            text-decoration: none;
+            color: white;
+            &:hover{
+                text-decoration: underline;
+                color:  $main-color;
+            }
+        }
+    }
+    &__shipping{
+        &_title{
+            margin-top: 9px;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 400;
+            text-align: center;
+        }
+        &_subtitle{
+            margin-top: 26px;
+            color: $main-color;
+            font-size: 60px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &_where{
+            color: #ffffff;
+            font-size: 35px;
+            font-weight: 500;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &_ball{
+            display: block;
+            margin: 0 auto;
+            margin-top: 38px;
+            background: #ffffff;
+            border-radius: 50%;
+            color: #fff;
+            height: 10px;
+            position: relative;
+            width: 10px;
+            &::before{
+                content: "";
+                position: absolute;
+                width: 380px;
+                height: 2px;
+                background-color: #ffff;
+                content: "";
+                left: 20px;
+                top: 3px;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                width: 380px;
+                height: 2px;
+                background-color: #ffff;
+                content: "";
+                right: 20px;
+                top: 3px;
+            }
+            
+        }
+        
+    }
+    &__blocks{
+        width: 262px;
+        height: 38px;
+    }
+    &__items{
+        
+        display: flex;
+        margin-top: 28px;
+        justify-content: space-between;
+    }
+    &__img{
+        display: block; /* Блочный элемент (для старых браузеров) */
+        text-align: center;
+    }
+    &__text{
+        display: block;
+        margin-top: 8px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+    }
+  
+    
+  
+}

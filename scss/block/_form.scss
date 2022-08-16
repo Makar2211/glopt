@@ -1,0 +1,47 @@
+.form{
+    padding: 0 0 58px 0;
+    height: 350px;
+    h2{
+        color: #3a3a3a;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    &__main{
+        margin-top: 80px;
+        background-image: url('../../icons/form.png');
+        width: 1140px;
+        height: 166px;
+        position: relative;
+    }
+    &__img{
+        
+        img{
+            position: absolute;
+            left: 50%;
+            top: -50px;
+            transform: translateX(-50%);
+        }
+    }
+    &__feed{
+        text-align: center;
+        padding-top: 65px;
+        
+        input{
+            width: 268px;
+            height: 45px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            background-color: #ffffff;    border-radius: 100px;
+            color: #101010;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+            padding-left: 25px;
+        }
+    }
+}

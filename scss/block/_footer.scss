@@ -1,0 +1,58 @@
+.footer{
+    height: 201px;
+    background-color: #25333c;
+    padding: 24px 0 28px 0;
+    &__img{
+        img{
+            width: 68px;
+            height: 71px;
+        }
+    }
+    &__text{
+        display: block;
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+    }
+    &__contacts{
+        margin-top: 5px;
+        a{
+            padding-left: 25px;
+        }
+        
+    }
+    &__hr{
+        margin-top: 12px;
+        color: #ffffff;
+    }
+    &__link{
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    &__politic{
+        margin-top: 5px;
+        padding-left: 100px;
+        a{
+            color:#ffffff;
+            &:hover{
+                color: $main-color;
+            }
+        }
+    }
+    &__logo{
+        margin-left: 270px;
+        span{
+            opacity: 0.6;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17px;
+            text-align: right;
+        }
+    }
+
+    
+}

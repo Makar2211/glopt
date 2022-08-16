@@ -1,0 +1,31 @@
+.work{
+    padding: 58px 0 20px 0;
+    background-color: #f3f3f3;
+    min-height: 590px;
+    &__header{
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 36px;
+       
+    }
+    &__text{
+        margin-left: 20px;
+        span{
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+        }
+    }
+    
+
+   
+}
